@@ -11,12 +11,10 @@ import Nav from "./Nav"
 function App() {
   return (
     <MovieProvider>    
-    <div className="App">
+    <div className="App container">
         <Nav/>
         <MovieList/>
-        <div>
       <AddMovie/>
-    </div>
     </div>
     </MovieProvider>
   );

@@ -7,7 +7,7 @@ function Nav()
     const [movies, setMovies] = useContext(MovieContext)
 
     return (
-        <div className="navbar-brand">
+        <div className="navbar-dark navbar-brand">
             A simple example using Context API for state management
     <div>MovieCount: {movies.length}</div>
         </div>

@@ -17,10 +17,12 @@ function addMovie(e){
 }
 
     return (
+        <div>
         <form onSubmit={(e) => addMovie(e)}>
             <input type="text" name="title" value={title} onChange={(e) => updateTitle(e)}/>
             <button>Submit</button>
         </form>
+        </div>
     )
 }
 
