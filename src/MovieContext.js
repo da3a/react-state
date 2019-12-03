@@ -13,7 +13,7 @@ export function MovieProvider(props){
 
     return(
         <MovieContext.Provider value={[value, setValue]}>
-            {props.children}
+            {props.children}s            
         </MovieContext.Provider>
     )
 }
